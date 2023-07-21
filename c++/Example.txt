@@ -1,0 +1,4 @@
+bu21csc2006	sunday         	00	00	bu21csc20063
+001	sunday         	00	00	bu21csc2006
+002	kolade         	00	00	bu20cit1078
+003	samuel         	00	00	bu20cit1050

@@ -1,0 +1,14 @@
+one=1.0
+one_third=1.0/3.0
+zero=one-one_third-one_third-one_third
+print('one=',one,'one-third',one_third,'zero',zero)
+one=1.0
+one_tenth=1.0/10.0
+zero=one-one_tenth-one_tenth-one_tenth\
+    -one_tenth-one_tenth-one_tenth\
+    -one_tenth-one_tenth-one_tenth\
+    -one_tenth
+print('one=',one,'one_tenth',one_tenth,'zero',zero)
+one=1.0
+one_fourth=1.0\4.0
+zero=one-one_fourth-one_fourth-one_fourth-one_fourth

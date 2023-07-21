@@ -1,0 +1,7 @@
+print('please enter an integer for x')
+x=input()
+print('please enter an integer for y')
+y=input()
+num1=int(x)
+num2=int(y)
+print(num1,"+",num2,'=',num1+num2)

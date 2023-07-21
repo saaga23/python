@@ -1,0 +1,20 @@
+# usingsqrt.py
+#Thhis program shows the various ways the 
+# sqrt function can be used.
+
+from math import sqrt
+
+x = 16
+# Pass a literal value and display the result
+print(sqrt(16.0))
+# Pass variable and display the result
+print(sqrt(x))
+# Pass an expression
+print(sqrt(2 * x - 5))
+# Assign result to variable
+y = sqrt(x)
+print(y)
+# Use result as argument to afunction call
+y = sqrt(sqrt(256.0))
+print(y)
+print(sqrt(int('45')))

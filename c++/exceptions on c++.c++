@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	try {
+		int age;
+		cout << "enter your age" << endl;
+		cin >> age;
+		if (age >= 18)
+		 {
+			cout << "Access granted - you are old enough.";
+		 }
+		else 
+	     {
+			throw 505;
+		 }
+		}
+		catch (...) 
+		{
+			cout << "Access denied - you must be at least 18 years old.\n";
+		}
+		return 0;
+}
